@@ -36,7 +36,7 @@ describe('DV Class Tests', function () {
     ]
 
     testCases.forEach(([ruc, dv, type]) => {
-      expect(DV.getDV(ruc, type)).to.equal(dv)
+      expect(DV.get(ruc, type)).to.equal(dv)
     })
   })
 

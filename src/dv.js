@@ -92,7 +92,7 @@ class DV {
     return new this(ruc, LEGAL).get()
   }
 
-  static getDV (ruc, type) {
+  static get (ruc, type) {
     return new this(ruc, type).get()
   }
 
